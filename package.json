@@ -1,0 +1,33 @@
+{
+  "name": "create-standard",
+  "version": "1.0.0",
+  "description": "standard modern project",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "create-standard",
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngusFu/create-standard.git"
+  },
+  "author": "wemlion <angusfu1126@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AngusFu/create-standard/issues"
+  },
+  "homepage": "https://github.com/AngusFu/create-standard#readme",
+  "dependencies": {
+    "esm": "^3.2.10",
+    "execa": "^1.0.0",
+    "fs-extra": "^7.0.1",
+    "pkg-install": "^0.2.0"
+  },
+  "devDependencies": {
+    "standard-version": "^5.0.1"
+  }
+}
