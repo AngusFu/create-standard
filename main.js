@@ -102,7 +102,7 @@ const extendPkgJson = function() {
   writeFileSync(pkgPath, JSON.stringify(pkgJSON, null, 2))
 }
 
-getPackageManager({ cwd: process.cwd() })
+getPackageManager()
   .then(pkgManager =>
     Promise.resolve()
       .then(() => console.log(''))

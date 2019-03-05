@@ -13,7 +13,7 @@ npm init standard
 For yarn users:
 
 ```
-yarn init standard
+yarn create standard
 ```
 
 ## Features
