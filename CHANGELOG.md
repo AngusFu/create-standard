@@ -7,4 +7,8 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* initialize project ([1840082](https://github.com/AngusFu/create-standard/commit/1840082))
+- prettier and eslint integration
+
+- commitizen and commitlint integration
+
+- commonly used dot files for modern projects
