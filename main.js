@@ -102,8 +102,8 @@ const extendPkgJson = function() {
   writeFileSync(pkgPath, JSON.stringify(pkgJSON, null, 2))
 }
 
-getPackageManager({ cwd: process.cwd() })
-  .then(pkgManager =>
+export function createStandard() {
+  return getPackageManager({ cwd: process.cwd() }).then(pkgManager =>
     Promise.resolve()
       .then(() => console.log(''))
       .then(() => initPackage(pkgManager))
@@ -111,6 +111,5 @@ getPackageManager({ cwd: process.cwd() })
       .then(() => initFiles(pkgManager))
       .then(() => initCommitizen(pkgManager))
       .then(() => extendPkgJson())
-      .then(() => console.log('Done.'))
   )
-  .catch(console.error)
+}

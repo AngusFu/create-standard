@@ -1,2 +1,5 @@
 #!/usr/bin/env node
-require('../index.js')
+const { createStandard } = require('../index.js')
+createStandard()
+  .then(() => console.log('Done.'))
+  .catch(console.error)
