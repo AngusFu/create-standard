@@ -55,7 +55,7 @@ const installDependencies = function(pkgManager) {
     '@commitlint/config-conventional'
   ]
 
-  console.log('installing dependencies...')
+  console.log('Installing dependencies...')
   return install(dependencies, {
     dev: true,
     prefer: pkgManager
@@ -111,6 +111,6 @@ getPackageManager({ cwd: process.cwd() })
       .then(() => initFiles(pkgManager))
       .then(() => initCommitizen(pkgManager))
       .then(() => extendPkgJson())
-      .then(() => console.log('done.'))
+      .then(() => console.log('Done.'))
   )
   .catch(console.error)
