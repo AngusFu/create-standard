@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.4](https://github.com/AngusFu/create-standard/compare/v1.0.3...v1.0.4) (2019-03-06)
+
+
+### Bug Fixes
+
+* eslint parser options ([22023b6](https://github.com/AngusFu/create-standard/commit/22023b6))
+
+
+### Features
+
+* expose function ([2944bcf](https://github.com/AngusFu/create-standard/commit/2944bcf))
+
+
+
 ## [1.0.3](https://github.com/AngusFu/create-standard/compare/v1.0.2...v1.0.3) (2019-03-06)
 
 
