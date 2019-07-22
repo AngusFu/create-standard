@@ -26,6 +26,7 @@ insert_final_newline = ignore
 # Makefiles always use tabs for indentation
 [Makefile]
 indent_style = tab
+indent_size = 4
 
 # Batch files use tabs for indentation
 [*.bat]
